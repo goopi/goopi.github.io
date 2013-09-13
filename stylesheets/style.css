@@ -8,9 +8,9 @@ body {
 p {
   line-height: 1.6em;
   margin: 0.5em 0;
-  margin-left: 160px;
   max-width: 30em;
-  padding-top: 0.8em;
+  padding-left: 1em;
+  padding-top: 0.4em;
 }
 a,
 a:visited {
@@ -20,10 +20,22 @@ li {
   margin-bottom: 0.3em;
 }
 .avatar {
-  float: left;
   padding: 1em;
 }
 .avatar img {
   border-radius: 6px;
-  width: 120px;
+  width: 100px;
+}
+@media screen and (min-width: 600px) {
+  p {
+    margin: 0.5em 0 0.5em 9.1em;
+    padding-left: 0;
+    padding-top: 0.8em;
+  }
+  .avatar {
+    float: left;
+  }
+  .avatar img {
+    width: 120px;
+  }
 }
