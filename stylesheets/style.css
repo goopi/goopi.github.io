@@ -1,0 +1,29 @@
+body {
+  font-family: Palatino, serif;
+  font-size: 1.1em;
+  font-weight: 300;
+  margin: 0.5em;
+  padding: 0;
+}
+p {
+  line-height: 1.6em;
+  margin: 0.5em 0;
+  margin-left: 160px;
+  max-width: 30em;
+  padding-top: 0.8em;
+}
+a,
+a:visited {
+  color: #307EA9;
+}
+li {
+  margin-bottom: 0.3em;
+}
+.avatar {
+  float: left;
+  padding: 1em;
+}
+.avatar img {
+  border-radius: 6px;
+  width: 120px;
+}
